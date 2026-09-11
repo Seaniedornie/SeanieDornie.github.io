@@ -3,6 +3,12 @@
 	to {height:19vh;}
 }
 
+@keyframes Animation2 {
+	from {margin-left:0vw;}
+	to {margin-left:50vw;}
+	
+}
+
 
 body{
 	background: #000000;
@@ -55,7 +61,7 @@ body{
 .Content-Box{
 	Animation-name:Animation;
 	animation-duration:0.5s;
-	animation-iteration-count: 6;
+	animation-iteration-count: 7;
 	animation-direction:alternate-reverse;
 }
 #P9{
@@ -63,4 +69,11 @@ body{
 }
 #P10{
 	margin-right:2.5vw;
+}
+
+#MadeBy{
+	animation-name:Animation2;
+	animation-duration:1.75s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
 }
